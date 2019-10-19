@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0}
+a{ text-decoration:none;}
+.white{color:#fff;}
+.f15{ font-size:15px;}
+.f16{ font-size:16px;}
+.f12{ font-size:12px;}
+.f14{ font-size:14px;}
+.mb10{ margin-bottom:10px;}
+.fl{ float:left;}
+.pd15{ padding:15px;}
+
+header{ height:46px; background-color:#111; line-height:46px; color:#fff; text-align:center;}
+.swiper-container{width:100%; background-color:#f1f1f1; -webkit-perspective:1200px;-moz-perspective:1200px;-ms-perspective:1200px;perspective:1200px}
+.swiper-wrapper{margin:10px 0}
+.swiper-slide{width:90%;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d}
+.swiper-slide .agent_level{width:96%;margin:0 auto 8px auto;}
+.swiper-slide .levelbox{padding:15px; border-radius:5px; box-shadow:0 0 8px #999;}
+.swiper-slide .level01{background-image: linear-gradient(90deg, #579CE9,#2173CF);}
+.swiper-slide .level02{background-image: linear-gradient(90deg, #00cbc7,#00a0db);}
+.swiper-slide .level03{background-image: linear-gradient(90deg, #fb6f56,#fa4846);}
+.swiper-slide .level04{background-image: linear-gradient(90deg, #e4c599,#c7a066);}
+.swiper-slide .levelbox span{ display:block;}
+.swiper-slide .levelbox span.name{ height:42px; line-height:42px; overflow:hidden; margin-right:55px;}
+.swiper-slide .levelbox span img{width:42px; height:42px; border-radius:50%; border:2px solid #fff; vertical-align:middle; margin-right:10px;}
+.levelIcon{ position:absolute; right:20px; top:15px;}
+.levelIcon img{width:50px;}
+
+.level_con{ line-height:24px;}
+.level_con p{ margin-bottom:15px;}
+.button{width:100%;border-radius:50px;height:40px;line-height:40px;font-size:16px;text-align:center;background-color:#1f72ce;color:#fff; border:none; margin:0 auto; display:block;-webkit-appearance: none;}
